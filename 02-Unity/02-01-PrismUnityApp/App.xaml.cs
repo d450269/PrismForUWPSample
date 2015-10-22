@@ -20,10 +20,5 @@ namespace PrismApp1
             NavigationService.Navigate("Main", null);
             return Task.FromResult<object>(null);
         }
-
-        protected override void ConfigureContainer()
-        {
-            base.ConfigureContainer();
-        }
     }
 }
